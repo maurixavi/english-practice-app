@@ -267,7 +267,15 @@ const possesivesQuestions = [
             { text: "One", correct: false },
             { text: "Two or more", correct: true }
         ]
-    }
+    },
+    {
+        question: 'She _____ up the kitchen by the time we arrived. That’s _____ car.',
+        answers: [
+            { text: "Anne’s parents", correct: false },
+            { text: "Annes’ parent’s", correct: false },
+            { text: "Anne’s parents’", correct: true }
+        ]
+    },
 ];
 
 const verbTenses_PastPerfectQuestions = [
@@ -312,7 +320,7 @@ const verbTenses_PastPerfectQuestions = [
             { text: "had cleaned", correct: true },
             { text: "hadn't clean", correct: false }
         ]
-    }
+    },
 ];
 
 
