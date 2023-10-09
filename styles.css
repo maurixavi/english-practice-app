@@ -9,7 +9,6 @@
 }
 
 body{
-    /*background: #001e4d;*/
     background: rgb(247, 247, 247);
 }
 
@@ -17,16 +16,10 @@ body{
     text-decoration: none;
     width: 100%;
     background-color: #001e4d;
-    /*height: 3rem;*/
     padding: 1em;
-    /*padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 100px;
-    padding-right: 100px;*/
-    /*padding: 1rem 3rem 3rem 2rem;*/
     display: flex;
     flex-flow: row wrap;
-    align-items: center; /*verticalmente*/
+    align-items: center; 
     justify-content: space-between;
 
 }
@@ -38,9 +31,7 @@ body{
 }
 
 .header nav a{
-    font-size: 1em;
-    
-    
+    font-size: 1em;    
 }
 
 
@@ -53,6 +44,7 @@ body{
     text-decoration: none; 
     color: white;
 }
+
 /*
 .header .menuBtn{
     background-color: transparent;
@@ -68,7 +60,6 @@ body{
 }
 */
 
-
 .header .ul{
     display: flex;
     flex-flow: row wrap;
@@ -80,7 +71,8 @@ body{
 .header .li{
     margin: 0.5em;
 }
-/*
+
+/* menu
 @media screen and (max-width:600px){
     .header .hamburguer-menu{
         display: block;
@@ -92,7 +84,6 @@ body{
         pointer-events: none;
         overflow: hidden;
         transition: all .5s ease;
-
     }
 
     .header .nav.active{   
@@ -137,9 +128,8 @@ nav a:hover {
 
 */
 
-
 .button-container {
-    display: flex; /* Para alinear los botones en una fila */
+    display: flex; 
   }
 
 
@@ -157,36 +147,35 @@ nav a:hover {
 }
   
 .stopwatch-btn {
-    border: none; /* Elimina el borde predeterminado del botón */
-    background: none; /* Elimina el fondo predeterminado del botón */
-    padding: 0; /* Elimina el espacio interno predeterminado del botón */
+    border: none; 
+    background: none;
+    padding: 0; 
     cursor: pointer;
-    margin-right: 0.6rem; /* Espacio entre los botones */
+    margin-right: 0.6rem; 
 
 }
   
-  .stopwatch-btn.large img {
-    width: 2rem; /* Ajusta el tamaño de la imagen */
+.stopwatch-btn.large img {
+    width: 2rem;
     height: 2rem;
-  }
+}
   
   
-  .stopwatch-btn img {
-    width: 1.6rem; /* Ajusta el tamaño de la imagen */
+.stopwatch-btn img {
+    width: 1.6rem; 
     height: 1.6rem;
-  }
+}
   
-  /* Estilos adicionales según tus preferencias */
-  .stopwatch-btn:hover {
-    opacity: 0.8; /* Cambia la opacidad al pasar el ratón por encima */
-  }
+.stopwatch-btn:hover {
+    opacity: 0.8; 
+}
   
 .container {
     width: 90%;
     max-width: 1000px;
     margin: auto;
-    display: flex; /* Para alinear los botones en una fila */
-    justify-content: center; /* Centra horizontalmente */
+    display: flex; 
+    justify-content: center; 
     flex-wrap: wrap;
 }
 
@@ -195,11 +184,7 @@ nav a:hover {
     background-color: #fff;
     width: 60rem;
     max-width: 60rem;
-    /*margin: 2rem auto 0;*/
     margin-top: 2rem;
-
-
-    /*margin: 1rem;*/
     border-radius: 0.5rem;
     padding: 2rem;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -207,11 +192,8 @@ nav a:hover {
 
 .app.questions-answers{
     width: 60%;
-    /*    width: 40rem;*/
     margin-left: 2rem;
     margin-right: 1rem;
-    
-    /*max-width: 30rem;*/
 }
 
 
@@ -223,14 +205,11 @@ nav a:hover {
 
 .app.stopwatch{
     width: 25%;
-    /*width: 14rem;*/
     margin-right: 2rem;
     margin-left: 1rem;
-    
     height: 40%;
     min-width: 14rem;
     color: #001e4d;;
-    /*max-width: 20rem;*/
     margin-bottom: 5rem;
 }
 
@@ -297,4 +276,3 @@ nav a:hover {
 .incorrect{
     background: #ff9393;
 }
-
