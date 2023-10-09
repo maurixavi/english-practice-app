@@ -53,7 +53,7 @@ body{
     text-decoration: none; 
     color: white;
 }
-
+/*
 .header .menuBtn{
     background-color: transparent;
     border: none; 
@@ -66,7 +66,7 @@ body{
     display: none;
 
 }
-
+*/
 
 
 .header .ul{
@@ -80,7 +80,7 @@ body{
 .header .li{
     margin: 0.5em;
 }
-
+/*
 @media screen and (max-width:600px){
     .header .hamburguer-menu{
         display: block;
@@ -88,7 +88,6 @@ body{
 
     .header .nav{
         width: 100%;
-        /*display: none;*/
         height: 0;
         pointer-events: none;
         overflow: hidden;
@@ -96,8 +95,7 @@ body{
 
     }
 
-    .header .nav.active{
-        /*display: block;*/
+    .header .nav.active{   
         height: 9rem;
         pointer-events: auto;
     }
@@ -107,12 +105,9 @@ body{
     }
 
     .header .li {
-        margin: 0.5rem 0; /*1rem top, bottom.  left,right=0*/
+        margin: 0.5rem 0; 
     }
-
-
-
-}
+}*/
 
 /*
 nav ul {
@@ -141,7 +136,6 @@ nav a:hover {
 }
 
 */
-
 
 
 .button-container {
@@ -218,6 +212,13 @@ nav a:hover {
     margin-right: 1rem;
     
     /*max-width: 30rem;*/
+}
+
+
+@media screen and (max-width: 600px) {
+    .app.questions-answers {
+        width: 100%;
+    }
 }
 
 .app.stopwatch{
