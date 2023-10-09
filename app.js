@@ -269,7 +269,7 @@ const possesivesQuestions = [
         ]
     },
     {
-        question: 'She _____ up the kitchen by the time we arrived. That’s _____ car.',
+        question: 'That’s _____ car.',
         answers: [
             { text: "Anne’s parents", correct: false },
             { text: "Annes’ parent’s", correct: false },
@@ -290,7 +290,7 @@ const verbTenses_PastPerfectQuestions = [
     {
         question: "They _____ a lot the days before, so they were ready for the exam.",
         answers: [
-            { text: "had studied", correct: false },
+            { text: "had studied", correct: true },
             { text: "had study", correct: false },
             { text: "hadn't studied", correct: true }
         ]
