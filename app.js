@@ -6,7 +6,7 @@ const nav = document.querySelector('.nav')
 menuBtn.addEventListener('click', ()=> {
     nav.classList.toggle('active')
 }) */
-
+ 
 const pronounsQuestions = [
     {
         question: "Who is Kate? Kate is my friend. ____ is a teacher.",
@@ -290,7 +290,7 @@ const verbTenses_PastPerfectQuestions = [
     {
         question: "They _____ a lot the days before, so they were ready for the exam.",
         answers: [
-            { text: "had studied", correct: true },
+            { text: "had studied", correct: false },
             { text: "had study", correct: false },
             { text: "hadn't studied", correct: true }
         ]
