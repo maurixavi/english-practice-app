@@ -7,6 +7,7 @@ menuBtn.addEventListener('click', ()=> {
     nav.classList.toggle('active')
 }) */
 
+
 const pronounsQuestions = [
     {
         question: "Who is Kate? Kate is my friend. ____ is a teacher.",
