@@ -292,7 +292,7 @@ const verbTenses_PastPerfectQuestions = [
         answers: [
             { text: "had studied", correct: true },
             { text: "had study", correct: false },
-            { text: "hadn't studied", correct: true }
+            { text: "hadn't studied", correct: false }
         ]
     },
     {
